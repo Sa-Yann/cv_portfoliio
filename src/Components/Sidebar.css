@@ -1,0 +1,113 @@
+.sidebar {
+    color: rgb(56, 55, 55);
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    border-radius: 10px;
+    height: fit-content; 
+    text-align: center;
+    /* background-color: lightpink; */
+}
+
+.sidebar__avatar {
+    margin-bottom: 10px;
+}
+
+.sidebar__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px lightgray;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px
+}
+
+.sidebar__stats {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sidebar__stat {
+    /* text-align: center; */
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.sidebar__stat > p {
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sidebar__bottom {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sidebar__top > img {
+    margin-bottom: -20px;
+    /* width: 100%;keep the image fiting the flex o.2 size we want to keep */
+    width: 100%;
+    height: 60%;
+    /* to make sure picure always fit the container its in proportion  */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+
+.sidebar__stats .sidebar__statNumber {
+    font-weight: bold;
+    color: #0a66c2;
+}
+
+.sidebar__top h4 {
+    color: gray;
+    font-size: 12px;
+}
+
+.sidebar__top h2 {
+    font-size: 18px;
+}
+
+.sidebar__bottom p {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.sidebar__recentItem {
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+    color: gray;
+    padding: 7px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.sidebar__recentItem:hover {
+    background-color: whitesmoke;
+    color: black
+}
+
+.sidebar__hash {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+
+
